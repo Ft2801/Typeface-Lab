@@ -1,0 +1,41 @@
+name: Feature request
+description: Propose an improvement to Typeface Lab
+title: "[Feature]: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Explain the user problem and desired outcome before proposing implementation details.
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem or use case
+      description: What limitation or user need should this change address?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed outcome
+      description: Describe the expected behavior or interface.
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+      description: Describe any workarounds or alternative solutions.
+  - type: checkboxes
+    id: constraints
+    attributes:
+      label: Project constraints
+      options:
+        - label: This proposal can preserve the dependency-free, build-free architecture.
+        - label: I considered desktop, mobile, keyboard, and accessibility behavior.
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Preliminary checks
+      options:
+        - label: I searched existing issues and pull requests for similar proposals.
+          required: true

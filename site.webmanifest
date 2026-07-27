@@ -1,0 +1,60 @@
+{
+  "id": "/Typeface_Lab/",
+  "name": "Typeface Lab",
+  "short_name": "Typeface Lab",
+  "description": "A dependency-free workbench for exploring Google Fonts, static styles, and variable font axes.",
+  "lang": "en",
+  "dir": "ltr",
+  "start_url": "/Typeface_Lab/",
+  "scope": "/Typeface_Lab/",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#ffffff",
+  "theme_color": "#3f3ff3",
+  "categories": [
+    "design",
+    "developer",
+    "utilities"
+  ],
+  "icons": [
+    {
+      "src": "assets/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "assets/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "assets/maskable-icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Open Font Tester",
+      "short_name": "Font Tester",
+      "url": "/Typeface_Lab/#type-tester"
+    },
+    {
+      "name": "How It Works",
+      "short_name": "About",
+      "url": "/Typeface_Lab/#about"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "assets/social-preview.png",
+      "sizes": "1200x630",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "Typeface Lab typography workbench"
+    }
+  ]
+}

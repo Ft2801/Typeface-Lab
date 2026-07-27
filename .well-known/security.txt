@@ -1,0 +1,5 @@
+Contact: https://github.com/Ft2801/Typeface_Lab/security/advisories/new
+Expires: 2027-07-26T23:59:59Z
+Preferred-Languages: en
+Canonical: https://ft2801.github.io/Typeface_Lab/.well-known/security.txt
+Policy: https://github.com/Ft2801/Typeface_Lab/blob/main/SECURITY.md

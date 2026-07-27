@@ -1,0 +1,63 @@
+name: Bug report
+description: Report a reproducible problem in Typeface Lab
+title: "[Bug]: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for reporting a problem. Please provide enough detail to reproduce it reliably.
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: What happened, and what did you expect to happen?
+      placeholder: Describe the observed and expected behavior.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: Include the selected font and control values when relevant.
+      placeholder: |
+        1. Open the font picker
+        2. Select ...
+        3. Change ...
+        4. Observe ...
+    validations:
+      required: true
+  - type: input
+    id: font
+    attributes:
+      label: Font family
+      description: Enter the affected family, or write "Not font-specific".
+    validations:
+      required: true
+  - type: input
+    id: browser
+    attributes:
+      label: Browser and version
+      placeholder: Firefox 128, Chrome 140, Safari 18, etc.
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: Operating system and viewport
+      placeholder: Windows 11, 1440x900
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Console output or screenshots
+      description: Add relevant logs, screenshots, or screen recordings. Remove sensitive information first.
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Preliminary checks
+      options:
+        - label: I searched existing issues for the same problem.
+          required: true
+        - label: I reproduced the issue with the current `main` branch or live site.
+          required: true

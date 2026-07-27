@@ -1,0 +1,39 @@
+# Operating system files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Editor settings
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Local development
+.env
+.env.*
+!.env.example
+*.log
+
+# Python local server/cache files
+__pycache__/
+*.py[cod]
+
+# Node tooling, if used locally for validation
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Test and coverage output
+coverage/
+.nyc_output/
+
+# Generated archives
+*.zip
+
+# Temporary files
+.tmp/
+tmp/

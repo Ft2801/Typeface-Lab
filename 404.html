@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Page Not Found — Typeface Lab</title>
+<meta name="robots" content="noindex, nofollow">
+<meta name="theme-color" content="#111318">
+<link rel="icon" type="image/svg+xml" href="/Typeface_Lab/favicon.svg">
+<style>
+  :root {
+    color-scheme: light dark;
+    --bg: #ffffff;
+    --surface: #f6f7f9;
+    --text: #111318;
+    --muted: #666d78;
+    --border: #e2e5e9;
+    --accent: #3f3ff3;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #0f1115;
+      --surface: #15181e;
+      --text: #f1f3f7;
+      --muted: #a9b0bc;
+      --border: #2b3039;
+      --accent: #7272ff;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    min-height: 100vh;
+    margin: 0;
+    display: grid;
+    place-items: center;
+    padding: 24px;
+    background: var(--bg);
+    color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  }
+  main {
+    width: min(100%, 620px);
+    padding: clamp(28px, 7vw, 56px);
+    border: 1px solid var(--border);
+    border-radius: 18px;
+    background: var(--surface);
+  }
+  .brand { display: flex; align-items: center; gap: 12px; margin-bottom: 48px; font-weight: 800; }
+  .mark { display: grid; place-items: center; width: 44px; height: 44px; border-radius: 10px; background: #2d3340; color: #fff; font: 700 28px Georgia, serif; }
+  .code { color: var(--accent); font-size: 0.78rem; font-weight: 800; letter-spacing: 0.1em; text-transform: uppercase; }
+  h1 { margin: 10px 0 14px; font-size: clamp(2rem, 8vw, 4rem); line-height: 1; letter-spacing: -0.04em; }
+  p { margin: 0 0 28px; color: var(--muted); }
+  a { display: inline-block; padding: 12px 18px; border-radius: 7px; background: var(--accent); color: #fff; font-weight: 750; text-decoration: none; }
+  a:focus-visible { outline: 3px solid var(--accent); outline-offset: 3px; }
+</style>
+</head>
+<body>
+<main>
+  <div class="brand"><span class="mark" aria-hidden="true">F</span><span>Typeface Lab</span></div>
+  <div class="code">Error 404</div>
+  <h1>Page not found.</h1>
+  <p>The requested page does not exist. Return to Typeface Lab to continue exploring Google Fonts.</p>
+  <a href="/Typeface_Lab/">Return to Typeface Lab</a>
+</main>
+</body>
+</html>

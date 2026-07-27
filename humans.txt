@@ -1,0 +1,15 @@
+/* TEAM */
+Creator: Fabio Tempera
+GitHub: https://github.com/Ft2801
+
+/* PROJECT */
+Name: Typeface Lab
+Website: https://ft2801.github.io/Typeface_Lab/
+Repository: https://github.com/Ft2801/Typeface_Lab
+Language: English
+License: MIT
+
+/* TECHNOLOGY */
+Standards: HTML5, CSS, JavaScript, Web App Manifest
+External font service: Google Fonts
+Build process: None
