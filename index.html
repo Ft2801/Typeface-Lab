@@ -753,7 +753,15 @@
 
   .font-search-wrap { position: relative; min-width: 0; }
   .font-search-wrap > label { display: block; margin-bottom: 7px; font-size: 0.84rem; font-weight: 750; }
-  .font-input-row { display: grid; grid-template-columns: minmax(0, 2fr) minmax(72px, 0.55fr) minmax(72px, 0.55fr); gap: 9px; }
+  .font-input-row {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr);
+    gap: 9px;
+  }
+  .font-input-row .btn {
+    width: 100%;
+    white-space: nowrap;
+  }
   #font-input {
     width: 100%;
     min-width: 0;
@@ -1322,9 +1330,8 @@
       border-bottom: 0;
     }
     .dialog-inner { padding: 21px 18px max(24px, env(safe-area-inset-bottom)); }
-    .font-input-row { grid-template-columns: 1fr 1fr; }
-    #font-input { grid-column: 1 / -1; }
-    .font-input-row .btn { width: 100%; }
+    .font-input-row { grid-template-columns: minmax(0, 1fr); }
+    #font-input { grid-column: auto; }
     .font-browser-list { max-height: 230px; }
   }
 
